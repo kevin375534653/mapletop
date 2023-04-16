@@ -1,0 +1,3677 @@
+@charset "UTF-8";
+
+/*!normalize.css 2012-03-11T12:53 UTC - http://github.com/necolas/normalize.css*/
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+	display: block
+}
+
+audio,
+canvas,
+video {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1
+}
+
+audio:not([controls]) {
+	display: none;
+	height: 0
+}
+
+[hidden] {}
+
+html {
+	font-size: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%
+}
+
+html,
+button,
+input,
+select,
+textarea {
+	font-family: sans-serif
+}
+
+body {
+	margin: 0
+}
+
+a:focus {
+	outline: thin dotted
+}
+
+a:hover,
+a:active {
+	outline: 0
+}
+
+h1 {
+	font-size: 2em;
+	margin: .67em 0
+}
+
+h2 {
+	font-size: 1.5em;
+	margin: .83em 0
+}
+
+h3 {
+	font-size: 1.17em;
+	margin: 1em 0
+}
+
+h4 {
+	font-size: 1em;
+	margin: 1.33em 0
+}
+
+h5 {
+	font-size: .83em;
+	margin: 1.67em 0
+}
+
+h6 {
+	font-size: .75em;
+	margin: 2.33em 0
+}
+
+abbr[title] {
+	border-bottom: 1px dotted
+}
+
+b,
+strong {
+	font-weight: 700
+}
+
+blockquote {
+	margin: 1em 40px
+}
+
+dfn {
+	font-style: italic
+}
+
+mark {
+	background: #ff0;
+	color: #000
+}
+
+p,
+pre {
+	margin: 1em 0
+}
+
+pre,
+code,
+kbd,
+samp {
+	font-family: monospace, serif;
+	_font-family: 'courier new', monospace;
+	font-size: 1em
+}
+
+pre {
+	white-space: pre;
+	white-space: pre-wrap;
+	word-wrap: break-word
+}
+
+q {
+	quotes: none
+}
+
+q:before,
+q:after {
+	content: '';
+	content: none
+}
+
+small {
+	font-size: 75%
+}
+
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline
+}
+
+sup {
+	top: -.5em
+}
+
+sub {
+	bottom: -.25em
+}
+
+dl,
+menu,
+ol,
+ul {
+	margin: 1em 0
+}
+
+dd {
+	margin: 0 0 0 40px
+}
+
+menu,
+ol,
+ul {
+	padding: 0 0 0 40px
+}
+
+nav ul,
+nav ol {
+	list-style: none;
+	list-style-image: none
+}
+
+img {
+	border: 0;
+	-ms-interpolation-mode: bicubic
+}
+
+svg:not(:root) {
+	overflow: hidden
+}
+
+figure {
+	margin: 0
+}
+
+form {
+	margin: 0
+}
+
+fieldset {
+	border: 1px solid silver;
+	margin: 0 2px;
+	padding: .35em .625em .75em
+}
+
+legend {
+	border: 0;
+	padding: 0;
+	white-space: normal;
+	*margin-left: -7px
+}
+
+button,
+input,
+select,
+textarea {
+	font-size: 100%;
+	margin: 0;
+	vertical-align: baseline;
+	*vertical-align: middle
+}
+
+button,
+input,
+select {
+	line-height: normal
+}
+
+button,
+input[type=button],
+input[type=reset],
+input[type=submit] {
+	cursor: pointer;
+	-webkit-appearance: button;
+	*overflow: visible
+}
+
+button[disabled],
+input[disabled] {
+	cursor: default
+}
+
+input[type=checkbox],
+input[type=radio] {
+	box-sizing: border-box;
+	padding: 0;
+	*height: 13px;
+	*width: 13px
+}
+
+input[type=search] {
+	-webkit-appearance: textfield;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box
+}
+
+input[type=search]::-webkit-search-decoration,
+input[type=search]::-webkit-search-cancel-button {
+	-webkit-appearance: none
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+	border: 0;
+	padding: 0
+}
+
+textarea {
+	overflow: auto;
+	vertical-align: top
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+body {
+	font-family: メイリオ, Meiryo, ＭＳ Ｐゴシック, ms pgothic, ヒラギノ角ゴ pro w3, hiragino kaku gothic pro, sans-serif;
+	color: #665030;
+	font-size: 16px;
+	margin: 0;
+	padding: 0
+}
+
+body>img {
+	position: absolute
+}
+
+div,
+p,
+ul,
+ol,
+dl,
+li,
+dt,
+dd {
+	word-break: break-all;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0
+}
+
+tr,
+th,
+td {
+	word-break: break-all;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0
+}
+
+ul,
+ol {
+	list-style-type: none
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	padding: 0
+}
+
+img {
+	border: none;
+	vertical-align: top
+}
+
+form {
+	margin: 0;
+	padding: 0
+}
+
+fieldset {
+	margin: 0;
+	padding: 0;
+	border: 0
+}
+
+.clear {
+	clear: both
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+	color: #fff;
+	outline: none !important
+}
+
+a:hover {
+	text-decoration: none
+}
+
+[class^=btn-search] a,
+[class^=btn-regist] a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-indent: 110% !important;
+	white-space: nowrap !important;
+	overflow: hidden !important
+}
+
+[class^=btn-] a:hover {
+	background-position: 0 100% !important
+}
+
+.develop-footer-code {
+	overflow: hidden;
+	height: 0
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: block;
+	overflow: hidden
+}
+
+.clearfix:after {
+	clear: both
+}
+
+.clearfix {
+	*zoom: 100%
+}
+
+#gnb-container {
+	position: relative;
+	z-index: 1000
+}
+
+@keyframes bounce {
+	0% {
+		-webkit-transform: scale(1, 1);
+		transform: scale(1, 1)
+	}
+
+	30% {
+		-webkit-transform: scale(1.1, .9);
+		transform: scale(1.1, .9)
+	}
+
+	60% {
+		-webkit-transform: scale(.9, 1.05);
+		transform: scale(.9, 1.05)
+	}
+
+	100% {
+		-webkit-transform: scale(1, 1);
+		transform: scale(1, 1)
+	}
+}
+
+@keyframes kinoko {
+	0% {
+		top: 41px;
+		left: 110px;
+		background-position: 0 0;
+		-webkit-transform: scale(1, 1);
+		transform: scale(1, 1)
+	}
+
+	10% {
+		top: 15px;
+		left: 110px;
+		background-position: 0 0;
+		-webkit-transform: scale(1, 1);
+		transform: scale(1, 1)
+	}
+
+	40% {
+		top: 15px;
+		left: 110px;
+		background-position: 0 0;
+		-webkit-transform: scale(1, 1);
+		transform: scale(1, 1)
+	}
+
+	50% {
+		top: 41px;
+		left: 110px;
+		background-position: 0 0;
+		-webkit-transform: scale(1, 1);
+		transform: scale(1, 1)
+	}
+
+	60% {
+		top: 41px;
+		left: 120px;
+		background-position: -38px 0;
+		-webkit-transform: scale(1, 1);
+		transform: scale(1, 1)
+	}
+
+	70% {
+		top: 8px;
+		left: 120px;
+		background-position: -38px 0;
+		-webkit-transform: scale(1, 1);
+		transform: scale(1, 1)
+	}
+
+	80% {
+		top: 8px;
+		left: 120px;
+		background-position: -38px 0;
+		-webkit-transform: scale(1.1, .9);
+		transform: scale(1.1, .9)
+	}
+
+	90% {
+		top: 8px;
+		left: 120px;
+		background-position: -38px 0;
+		-webkit-transform: scale(.9, 1.1);
+		transform: scale(.9, 1.1)
+	}
+
+	100% {
+		top: 8px;
+		left: 120px;
+		background-position: -38px 0;
+		-webkit-transform: scale(1, 1);
+		transform: scale(1, 1)
+	}
+}
+
+@keyframes kaiten01 {
+	0% {
+		-webkit-transform: rotateZ(45deg);
+		transform: rotateZ(45deg);
+		background-position: 0 0
+	}
+
+	80% {
+		-webkit-transform: rotateZ(720deg);
+		transform: rotateZ(720deg);
+		background-position: 0 0
+	}
+
+	100% {
+		-webkit-transform: rotateZ(720deg);
+		transform: rotateZ(720deg);
+		background-position: 0 0
+	}
+}
+
+@keyframes kaiten02 {
+	0% {
+		-webkit-transform: rotateZ(0deg) scale(1);
+		transform: rotateZ(0deg) scale(1);
+		background-position: 0 0
+	}
+
+	79% {
+		-webkit-transform: rotateZ(1800deg) scale(1);
+		transform: rotateZ(1800deg) scale(1);
+		background-position: 0 0
+	}
+
+	80% {
+		-webkit-transform: rotateZ(1800deg) scale(1);
+		transform: rotateZ(1800deg) scale(1);
+		background-position: 0 100%
+	}
+
+	85% {
+		-webkit-transform: rotateZ(1800deg) scale(4);
+		transform: rotateZ(1800deg) scale(4);
+		background-position: 0 100%
+	}
+
+	100% {
+		-webkit-transform: rotateZ(1800deg) scale(0);
+		transform: rotateZ(1800deg) scale(0);
+		background-position: 0 100%
+	}
+}
+
+@keyframes active {
+	0% {
+		-webkit-transform: scale(.1);
+		transform: scale(.1)
+	}
+
+	70% {
+		-webkit-transform: scale(1.2);
+		transform: scale(1.2)
+	}
+
+	100% {
+		-webkit-transform: scale(1);
+		transform: scale(1)
+	}
+}
+
+@keyframes passive {
+	0% {
+		-webkit-transform: scale(1);
+		transform: scale(1)
+	}
+
+	30% {
+		-webkit-transform: scale(1.2);
+		transform: scale(1.2)
+	}
+
+	100% {
+		-webkit-transform: scale(.1);
+		transform: scale(.1)
+	}
+}
+
+@keyframes talk {
+	0% {
+		width: 0
+	}
+
+	60% {
+		width: 34px
+	}
+
+	100% {
+		width: 34px
+	}
+}
+
+@keyframes anime {
+	0% {
+		top: 0
+	}
+
+	100% {
+		top: 4px
+	}
+}
+
+body,
+body.day {
+	background: url(../img/char/anime_tower01.gif), url(img/char/anime_tower02.gif), url(../img/char/anime_sky01.gif), url(../img/char/anime_sky02.gif), url(../img/char/anime_sky03.gif), url(../img/char/anime_sky04.gif), url(../img/char/anime_sky05.gif), url(../img/bg_sub_180320.png), #01adff url(../img/bg_day.jpg);
+	background-position: calc(50% - 843px) 289px, calc(50% + 820px) 287px, calc(50% - 730px) 450px, calc(50% + 694px) 59px, calc(50% - 668px) 651px, calc(50% + 628px) 399px, calc(50% - 658px) 55px, center 0, center 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	min-width: 1244px
+}
+
+body.night {
+	background: url(../img/char/anime_tower01.gif), url(../img/char/anime_tower02.gif), url(../img/char/anime_sky01.gif), url(../img/char/anime_sky02.gif), url(../img/char/anime_sky03.gif), url(../img/char/anime_sky04.gif), url(../img/char/anime_sky06.gif), url(../img/bg_sub_180320.png), url(../img/bg_night.jpg);
+	background-position: calc(50% - 843px) 289px, calc(50% + 820px) 287px, calc(50% - 730px) 450px, calc(50% + 694px) 59px, calc(50% - 668px) 651px, calc(50% + 628px) 399px, calc(50% - 658px) 55px, center 0, center 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	min-width: 1244px
+}
+
+body.night.body-scroll {
+	background: url(../img/char/anime_tower01.gif), url(../img/char/anime_tower02.gif), url(../img/char/anime_sky01.gif), url(../img/char/anime_sky02.gif), url(../img/char/anime_sky03.gif), url(../img/char/anime_sky04.gif), url(../img/bg_sub_180320.png), #030d4b url(../img/bg_night_long.jpg);
+	background-position: calc(50% - 843px) 289px, calc(50% + 830px) 299px, calc(50% - 730px) 450px, calc(50% + 694px) 59px, calc(50% - 668px) 651px, calc(50% + 628px) 399px, center 0, center bottom -35px !important;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	min-width: 1244px
+}
+
+.wrapper {
+	position: relative;
+	z-index: 5
+}
+
+header {
+	width: 1200px;
+	margin: 0 auto;
+	height: 120px;
+	position: relative;
+	z-index: 300
+}
+
+header h1 {
+	position: absolute;
+	top: 23px;
+	width: 158px;
+	height: 78px
+}
+
+header h1 a {
+	position: relative;
+	z-index: 10;
+	background: url(../img/logo.png) no-repeat -5px -33px;
+	background-size: cover;
+	width: 270px;
+	height: 78px;
+	display: block;
+	text-indent: 110%;
+	white-space: nowrap;
+	overflow: hidden
+}
+
+header h1::after {
+	content: '';
+	position: absolute;
+	display: block;
+	background: url(../img/icn_puru.png) no-repeat 0 0;
+	width: 38px;
+	height: 36px;
+	top: 41px;
+	left: 110px;
+	z-index: 1
+}
+
+header h1:hover a {
+	-webkit-transform-origin: center bottom;
+	transform-origin: center bottom;
+	-webkit-animation: bounce .3s ease-in-out forwards;
+	animation: bounce .3s ease-in-out forwards
+}
+
+header h1:hover::after {
+	-webkit-animation: kinoko 1s linear forwards;
+	animation: kinoko 1s linear forwards
+}
+
+body.night header h1::after {
+	background: url(../img/icn_pinkbean.png) no-repeat 0 0
+}
+
+header nav {
+	position: absolute;
+	top: 23px;
+	left: 265px;
+	z-index: 100
+}
+
+header nav>ul>li {
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	padding-bottom: 10px
+}
+
+header nav>ul>li>a {
+	display: block;
+	width: 170px;
+	height: 70px;
+	background: url(../img/btn_menu.png) no-repeat 0 0;
+	text-indent: 110%;
+	white-space: nowrap;
+	overflow: hidden
+}
+
+header nav>ul>li.menu01>a {
+	background-position: 0% 0
+}
+
+header nav>ul>li.menu01>a:hover {
+	background-position: 0% 100%
+}
+
+header nav>ul>li.menu02>a {
+	background-position: 25% 0
+}
+
+header nav>ul>li.menu02>a:hover {
+	background-position: 25% 100%
+}
+
+header nav>ul>li.menu03>a {
+	background-position: 50% 0
+}
+
+header nav>ul>li.menu03>a:hover {
+	background-position: 50% 100%
+}
+
+header nav>ul>li.menu04>a {
+	background-position: 75% 0
+}
+
+header nav>ul>li.menu04>a:hover {
+	background-position: 75% 100%
+}
+
+header nav>ul>li.menu05>a {
+	background-position: 100% 0
+}
+
+header nav>ul>li.menu05>a:hover {
+	background-position: 100% 100%
+}
+
+header nav>ul>li.menu01 ul li a {
+	background: url(../img/btn_menu_01.png) no-repeat 0 0
+}
+
+header nav>ul>li.menu02 ul li a {
+	width: 195px;
+	background: url(../img/btn_menu_02_171108.png) no-repeat 0 0
+}
+
+header nav>ul>li.menu03 ul li a {
+	background: url(../img/btn_menu_03_191224.png) no-repeat 0 0
+}
+
+header nav>ul>li.menu04 ul li a {
+	width: 210px;
+	background: url(../img/btn_menu_04.png) no-repeat 0 0
+}
+
+header nav>ul>li.menu05 ul li a {
+	width: 220px;
+	background: url(../img/btn_menu_05.png) no-repeat 0 0
+}
+
+header nav>ul>li ul {
+	display: none;
+	padding: 0 7px 7px;
+	position: absolute;
+	left: 20px;
+	top: 60px
+}
+
+header nav>ul>li ul::before {
+	content: '';
+	display: block;
+	position: absolute;
+	background: url(../img//bg_menu_top.png) no-repeat;
+	width: 30px;
+	height: 21px;
+	left: 100px;
+	top: 0;
+	z-index: 10
+}
+
+header nav>ul>li ul li {
+	position: relative;
+	height: 29px;
+	padding: 0 5px;
+	background: #ffb400;
+	border-left: solid 3px #f78b00;
+	border-right: solid 3px #f78b00;
+	box-shadow: 3px 0 2px 0 rgba(0, 0, 0, .1), -3px 0 2px 0 rgba(0, 0, 0, .1)
+}
+
+header nav>ul>li ul li::after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: -3px;
+	left: -3px;
+	background: #ffb400;
+	border-left: solid 3px #f78b00;
+	border-right: solid 3px #f78b00;
+	height: 3px;
+	width: 100%
+}
+
+header nav>ul>li ul li:first-child {
+	padding-top: 10px;
+	margin-top: 18px;
+	border-radius: 20px 20px 0 0;
+	border-top: solid 3px #f78b00;
+	box-shadow: 0 -3px 2px 0 rgba(0, 0, 0, .1), 3px 0 2px 0 rgba(0, 0, 0, .1), -3px 0 2px 0 rgba(0, 0, 0, .1)
+}
+
+header nav>ul>li ul li:first-child::after {
+	content: normal
+}
+
+header nav>ul>li ul li:last-child {
+	padding-bottom: 10px;
+	border-radius: 0 0 20px 20px;
+	border-bottom: solid 3px #f78b00;
+	box-shadow: 0 3px 2px 0 rgba(0, 0, 0, .1), 3px 0 2px 0 rgba(0, 0, 0, .1), -3px 0 2px 0 rgba(0, 0, 0, .1)
+}
+
+header nav>ul>li ul li a {
+	display: block;
+	min-width: 150px;
+	height: 29px;
+	white-space: nowrap;
+	text-indent: 110%;
+	overflow: hidden
+}
+
+header nav>ul>li ul li.sub01 a {
+	background-position: 0% 0
+}
+
+header nav>ul>li ul li.sub01 a:hover {
+	background-position: 100% 0
+}
+
+header nav>ul>li ul li.sub02 a {
+	background-position: 0% -29px
+}
+
+header nav>ul>li ul li.sub02 a:hover {
+	background-position: 100% -29px
+}
+
+header nav>ul>li ul li.sub03 a {
+	background-position: 0% -58px
+}
+
+header nav>ul>li ul li.sub03 a:hover {
+	background-position: 100% -58px
+}
+
+header nav>ul>li ul li.sub04 a {
+	background-position: 0% -87px
+}
+
+header nav>ul>li ul li.sub04 a:hover {
+	background-position: 100% -87px
+}
+
+header nav>ul>li ul li.sub05 a {
+	background-position: 0% -116px
+}
+
+header nav>ul>li ul li.sub05 a:hover {
+	background-position: 100% -116px
+}
+
+header nav>ul>li ul li.sub06 a {
+	background-position: 0% -145px
+}
+
+header nav>ul>li ul li.sub06 a:hover {
+	background-position: 100% -145px
+}
+
+header nav>ul>li ul li.sub07 a {
+	background-position: 0% -174px
+}
+
+header nav>ul>li ul li.sub07 a:hover {
+	background-position: 100% -174px
+}
+
+header nav>ul>li ul li.sub08 a {
+	background-position: 0% -203px
+}
+
+header nav>ul>li ul li.sub08 a:hover {
+	background-position: 100% -203px
+}
+
+header nav>ul>li ul li.sub09 a {
+	background-position: 0% -232px
+}
+
+header nav>ul>li ul li.sub09 a:hover {
+	background-position: 100% -232px
+}
+
+header nav>ul>li ul li.sub10 a {
+	background-position: 0% -261px
+}
+
+header nav>ul>li ul li.sub10 a:hover {
+	background-position: 100% -261px
+}
+
+header nav>ul>li ul li.sub11 a {
+	background-position: 0% -290px
+}
+
+header nav>ul>li ul li.sub11 a:hover {
+	background-position: 100% -290px
+}
+
+header nav>ul>li ul li.sub12 a {
+	background-position: 0% -319px
+}
+
+header nav>ul>li ul li.sub12 a:hover {
+	background-position: 100% -319px
+}
+
+header nav>ul>li ul li.sub13 a {
+	background-position: 0% -348px
+}
+
+header nav>ul>li ul li.sub13 a:hover {
+	background-position: 100% -348px
+}
+
+header nav>ul>li ul li.sub14 a {
+	background-position: 0% -377px
+}
+
+header nav>ul>li ul li.sub14 a:hover {
+	background-position: 100% -377px
+}
+
+header nav>ul>li ul li.sub15 a {
+	background-position: 0% -406px
+}
+
+header nav>ul>li ul li.sub15 a:hover {
+	background-position: 100% -406px
+}
+
+header nav>ul>li.menu05 ul {
+	left: -25px
+}
+
+header nav>ul>li.menu05 ul::before {
+	left: 120px
+}
+
+footer {
+	background: url(../img//char/anime_footer05.gif), url(../img/char/anime_footer06.gif), url(../img/bg_footer_180320.png);
+	background-position: calc(50% + 848px) 0, calc(50% + 540px) 106px, center bottom;
+	background-repeat: no-repeat;
+	height: 150px;
+	position: relative;
+	margin: -50px auto 0;
+	padding: 205px 0 10px;
+	z-index: 100;
+	width: 100%;
+	text-align: left;
+	min-width: 1244px
+}
+
+.commonfooter {
+	clear: both;
+	position: relative;
+	width: 900px;
+	height: 106px;
+	padding: 15px 0;
+	margin: 0 auto;
+	background: #fff;
+	border: solid 3px #e1e1e1;
+	border-radius: 50px;
+	text-align: center
+}
+
+.commonfooter>a {
+	text-decoration: underline
+}
+
+.commonfooter>a:hover {
+	text-decoration: none
+}
+
+.commonfooter>ul {
+	margin: 0;
+	padding: 0;
+	overflow: hidden
+}
+
+.commonfooter>ul>li {
+	display: inline;
+	font-size: 10px;
+	padding: 0 5px 0 8px;
+	list-style: none;
+	border-left: solid 1px #5d6669
+}
+
+.commonfooter>ul>li:first-child {
+	padding: 0 5px 0 0;
+	border-left: none
+}
+
+.commonfooter>ul>li a {
+	color: #5d6669
+}
+
+.commonfooter>div {
+	background: url(../img/logo_nexon.gif) no-repeat center bottom;
+	padding-bottom: 42px
+}
+
+.commonfooter>div p {
+	margin: 6px 0 0;
+	padding: 0;
+	font-size: 10px;
+	line-height: normal;
+	clear: left
+}
+
+.commonfooter>div p:first-child+p {
+	margin-top: 10px
+}
+
+.commonfooter>div p>a {
+	color: #00a0e9
+}
+
+.container {
+	width: 1200px;
+	min-height: 600px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 200;
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: flex-start;
+	justify-content: center
+}
+
+article {
+	width: 924px;
+	margin-right: 36px;
+	position: relative;
+	order: 2
+}
+
+article~.sub {
+	width: 230px;
+	margin: 15px 10px 0 0;
+	order: 1
+}
+
+article h2,
+article .breadcrumb,
+article .anchor-list,
+article .sub-list {
+	position: absolute;
+	z-index: 10
+}
+
+article h2,
+article h3,
+article h4,
+article h5 {
+	white-space: nowrap;
+	text-indent: 110%;
+	overflow: hidden
+}
+
+article h3 {
+	height: 50px
+}
+
+article h4 {
+	margin-bottom: 16px;
+	height: 20px
+}
+
+article h5 {
+	margin-bottom: 16px
+}
+
+article>ul li a {
+	color: #6a3017;
+	text-decoration: none
+}
+
+article>ul li a:hover {
+	color: #e30000
+}
+
+article section,
+article .section,
+div[class^=modal-] section,
+div[class^=modal-] .section {
+	background: url(file:///C:/Mis%20lugares%20Web/kaotickinterna/web.archive.org/web\20210331174945im_/https_/static.nexon.co.jp/maplestory/ver2017/sub/bg_section.png) no-repeat 0 0;
+	width: 924px;
+	position: relative;
+	padding-top: 62px
+}
+
+article section::before,
+article .section::before,
+div[class^=modal-] section::before,
+div[class^=modal-] .section::before {
+	content: '';
+	position: absolute;
+	display: block;
+	z-index: 1
+}
+
+article section:first-child::before,
+article .section:first-child::before,
+div[class^=modal-] section:first-child::before,
+div[class^=modal-] .section:first-child::before {
+	content: normal
+}
+
+article section::after,
+article .section::after,
+div[class^=modal-] section::after,
+div[class^=modal-] .section::after {
+	content: '';
+	position: absolute;
+	display: block;
+	background: url(../img/bg_section_right.png) no-repeat 0 0;
+	width: 40px;
+	height: 44px;
+	right: -2px;
+	top: 78px
+}
+
+article section .inner,
+article .section .inner,
+div[class^=modal-] section .inner,
+div[class^=modal-] .section .inner {
+	background: #fff8ed;
+	border-bottom: solid 3px #dbc19a;
+	border-right: solid 3px #dbc19a;
+	border-left: solid 3px #dbc19a;
+	border-radius: 0 0 10px 10px;
+	margin: 0 19px;
+	padding: 10px 30px 20px
+}
+
+article section .inner::after,
+article section .inner div[class^=content]::after,
+article section .inner .box::after,
+article .section .inner::after,
+article .section .inner div[class^=content]::after,
+article .section .inner .box::after,
+div[class^=modal-] section .inner::after,
+div[class^=modal-] section .inner div[class^=content]::after,
+div[class^=modal-] section .inner .box::after,
+div[class^=modal-] .section .inner::after,
+div[class^=modal-] .section .inner div[class^=content]::after,
+div[class^=modal-] .section .inner .box::after {
+	content: "";
+	display: table;
+	clear: both
+}
+
+article section .entry01,
+article .section .entry01,
+div[class^=modal-] section .entry01,
+div[class^=modal-] .section .entry01 {
+	background: url(file:///C:/Mis%20lugares%20Web/kaotickinterna/web.archive.org/web\20210114133605im_/https_/static.nexon.co.jp/maplestory/ver2017/sub/bg_section_primary.png) no-repeat 0 0;
+	padding-top: 150px
+}
+
+article section .entry01::after,
+article .section .entry01::after,
+div[class^=modal-] section .entry01::after,
+div[class^=modal-] .section .entry01::after {
+	top: 156px
+}
+
+article section p,
+article .section p,
+div[class^=modal-] section p,
+div[class^=modal-] .section p {
+	font-size: 12px;
+	color: #665030;
+	line-height: 1.5;
+	margin-bottom: 16px
+}
+
+article section ul,
+article .section ul,
+div[class^=modal-] section ul,
+div[class^=modal-] .section ul {
+	font-size: 12px;
+	color: #665030;
+	line-height: 1.5;
+	margin-bottom: 16px
+}
+
+article section em,
+article .section em,
+div[class^=modal-] section em,
+div[class^=modal-] .section em {
+	font-weight: 700;
+	font-style: normal
+}
+
+article section hr,
+article .section hr,
+div[class^=modal-] section hr,
+div[class^=modal-] .section hr {
+	border: none;
+	background: url(../img/border_dot.png) repeat-x left bottom;
+	height: 2px;
+	margin: 16px auto 20px
+}
+
+article section strong,
+article section .bold,
+article .section strong,
+article .section .bold,
+div[class^=modal-] section strong,
+div[class^=modal-] section .bold,
+div[class^=modal-] .section strong,
+div[class^=modal-] .section .bold {
+	color: #f31010;
+	font-weight: 700
+}
+
+article section p.caution,
+article .section p.caution,
+div[class^=modal-] section p.caution,
+div[class^=modal-] .section p.caution {
+	font-size: 11px;
+	color: #8c6e44;
+	padding-left: 1em;
+	text-indent: -1em
+}
+
+article section p.lead,
+article .section p.lead,
+div[class^=modal-] section p.lead,
+div[class^=modal-] .section p.lead {
+	white-space: nowrap;
+	text-indent: 110%;
+	overflow: hidden
+}
+
+article section ul.caution li,
+article .section ul.caution li,
+div[class^=modal-] section ul.caution li,
+div[class^=modal-] .section ul.caution li {
+	font-size: 11px;
+	color: #8c6e44;
+	padding-left: 1em;
+	text-indent: -1em
+}
+
+article section a,
+article .section a,
+div[class^=modal-] section a,
+div[class^=modal-] .section a {
+	font-weight: 700;
+	color: #665030
+}
+
+article section a:hover,
+article .section a:hover,
+div[class^=modal-] section a:hover,
+div[class^=modal-] .section a:hover {
+	color: #665030
+}
+
+article section .img,
+article .section .img,
+div[class^=modal-] section .img,
+div[class^=modal-] .section .img {
+	padding: 4px;
+	background: #fff;
+	border: solid 1px #e2c9a4;
+	border-radius: 3px
+}
+
+article section .attention,
+article .section .attention,
+div[class^=modal-] section .attention,
+div[class^=modal-] .section .attention {
+	font-weight: 700
+}
+
+article section .attention::before,
+article .section .attention::before,
+div[class^=modal-] section .attention::before,
+div[class^=modal-] .section .attention::before {
+	content: '';
+	display: inline-block;
+	background: url(../img/icn_attention.png) no-repeat 0 0;
+	width: 11px;
+	height: 13px;
+	padding-right: 3px;
+	vertical-align: middle;
+	padding-bottom: 2px
+}
+
+article section .notice,
+article .section .notice,
+div[class^=modal-] section .notice,
+div[class^=modal-] .section .notice {
+	font-weight: 700
+}
+
+article section .notice::before,
+article .section .notice::before,
+div[class^=modal-] section .notice::before,
+div[class^=modal-] .section .notice::before {
+	content: '';
+	display: inline-block;
+	background: url(../img/icn_notice.png) no-repeat 0 0;
+	width: 11px;
+	height: 13px;
+	padding-right: 3px;
+	vertical-align: middle;
+	padding-bottom: 1px
+}
+
+article section .tips02,
+article .section .tips02,
+div[class^=modal-] section .tips02,
+div[class^=modal-] .section .tips02 {
+	border: solid 1px #f1e0c6;
+	background: #f1e0c6;
+	padding: 20px 20px 0;
+	border-radius: 4px;
+	margin: 0 10px 20px
+}
+
+article section .tips,
+article .section .tips,
+div[class^=modal-] section .tips,
+div[class^=modal-] .section .tips {
+	border: solid 2px #e8cca0;
+	background: #fff;
+	padding: 20px 20px 0;
+	border-radius: 6px;
+	margin-bottom: 20px
+}
+
+article section .tips .tips02,
+article .section .tips .tips02,
+div[class^=modal-] section .tips .tips02,
+div[class^=modal-] .section .tips .tips02 {
+	border: solid 1px #f9eedd;
+	background: #f9eedd;
+	margin: 0 0 20px
+}
+
+article section .flexbox,
+article .section .flexbox,
+div[class^=modal-] section .flexbox,
+div[class^=modal-] .section .flexbox {
+	display: flex;
+	justify-content: space-between
+}
+
+article section .center-pos,
+article .section .center-pos,
+div[class^=modal-] section .center-pos,
+div[class^=modal-] .section .center-pos {
+	margin: 0 auto 16px;
+	text-align: center
+}
+
+article section .right-pos,
+article .section .right-pos,
+div[class^=modal-] section .right-pos,
+div[class^=modal-] .section .right-pos {
+	float: right;
+	margin: 0 0 20px 20px
+}
+
+article section .left-pos,
+article .section .left-pos,
+div[class^=modal-] section .left-pos,
+div[class^=modal-] .section .left-pos {
+	float: left;
+	margin: 0 20px 20px 0
+}
+
+article section .error,
+article .section .error,
+div[class^=modal-] section .error,
+div[class^=modal-] .section .error {
+	text-align: center;
+	color: #e40000
+}
+
+article section .split,
+article .section .split,
+div[class^=modal-] section .split,
+div[class^=modal-] .section .split {
+	font-size: 0;
+	margin-bottom: 20px;
+	text-align: center
+}
+
+article section .split>li,
+article .section .split>li,
+div[class^=modal-] section .split>li,
+div[class^=modal-] .section .split>li {
+	display: inline-block;
+	font-size: 12px;
+	margin-left: 20px
+}
+
+article section .split>li:first-child,
+article .section .split>li:first-child,
+div[class^=modal-] section .split>li:first-child,
+div[class^=modal-] .section .split>li:first-child {
+	margin-left: 0
+}
+
+article section div[class^=content],
+div[class^=modal-] section div[class^=content] {
+	padding: 20px 0 0;
+	margin: 0 10px;
+	background: url(../img/border_dot.png) repeat-x left top
+}
+
+article section div.content01,
+div[class^=modal-] section div.content01 {
+	background: 0 0
+}
+
+article .section div[class^=content],
+div[class^=modal-] .section div[class^=content] {
+	padding: 0;
+	margin: 0
+}
+
+.sub aside {
+	position: relative;
+	height: 278px
+}
+
+.sub aside .btn-login {
+	position: absolute;
+	left: 25px
+}
+
+.sub aside .btn-login a {
+	background: url(../img/btn_login.png) no-repeat 0 0;
+	width: 186px;
+	height: 190px
+}
+
+.sub aside .btn-login:hover a {
+	-webkit-transform-origin: center bottom;
+	transform-origin: center bottom;
+	-webkit-animation: bounce .3s ease-in-out;
+	animation: bounce .3s ease-in-out
+}
+
+.sub aside .btn-login-openid {
+	position: absolute;
+	left: 5px;
+	top: 140px
+}
+
+.sub aside .btn-login-openid a {
+	background: url(file:///C:/Mis%20lugares%20Web/kaotickinterna/web.archive.org/web\20210331174853im_/https_/static.nexon.co.jp/maplestory/ver2017/common/btn_login_openid.png) no-repeat 0 0;
+	width: 84px;
+	height: 86px
+}
+
+.sub aside .btn-login-openid:hover a {
+	-webkit-transform-origin: center bottom;
+	transform-origin: center bottom;
+	-webkit-animation: bounce .3s ease-in-out;
+	animation: bounce .3s ease-in-out
+}
+
+.sub aside .btn-regist {
+	position: absolute;
+	left: 25px;
+	bottom: 0
+}
+
+.sub aside .btn-regist a {
+	background: url(../img/btn_regist.png) no-repeat 0 0;
+	width: 180px;
+	height: 44px
+}
+
+.sub aside .btn-regist:hover a {
+	-webkit-transform-origin: center bottom;
+	transform-origin: center bottom;
+	-webkit-animation: bounce .3s ease-in-out;
+	animation: bounce .3s ease-in-out
+}
+
+.sub .login-area {
+	height: 278px;
+	position: relative;
+	color: #754a0b;
+	background: url(file:///C:/Mis%20lugares%20Web/kaotickinterna/web.archive.org/web\20210115030046im_/https_/static.nexon.co.jp/maplestory/ver2017/common/bg_login.png) no-repeat center bottom
+}
+
+.sub .login-area .avatar {
+	text-align: center;
+	margin-left: 20px
+}
+
+.sub .login-area .user-data {
+	display: inline-block;
+	margin: 25px 0 0 60px;
+	width: 85px;
+	vertical-align: top
+}
+
+.sub .login-area .user-data p {
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 1.4
+}
+
+.sub .login-area .user-function {
+	display: inline-block;
+	margin: 14px 0 0 8px;
+	text-align: center
+}
+
+.sub .login-area .user-function li {
+	font-size: 12px;
+	position: relative
+}
+
+.sub .login-area .user-function li span {
+	position: absolute;
+	top: 0;
+	right: -5px;
+	min-width: 8px;
+	padding: 0 5px;
+	font-weight: 700;
+	color: #fff;
+	background: red;
+	border-radius: 18px;
+	text-indent: 0
+}
+
+.sub .login-area .user-function li a {
+	display: block;
+	width: 36px;
+	height: 36px
+}
+
+.sub .login-area .user-function .btn-mail a {
+	background: url(file:///C:/Mis%20lugares%20Web/kaotickinterna/web.archive.org/web\20210115001202im_/https_/static.nexon.co.jp/maplestory/ver2017/common/btn_mail.png) no-repeat left bottom
+}
+
+.sub .login-area .user-function .btn-stamp a {
+	background: url(file:///C:/Mis%20lugares%20Web/kaotickinterna/web.archive.org/web\20210115035847im_/https_/static.nexon.co.jp/maplestory/ver2017/common/btn_stamp.png) no-repeat left bottom
+}
+
+.sub .login-area .user-function .btn-notice a {
+	background: url(file:///C:/Mis%20lugares%20Web/kaotickinterna/web.archive.org/web\20210115030039im_/https_/static.nexon.co.jp/maplestory/ver2017/common/btn_notice.png) no-repeat left bottom
+}
+
+.sub .login-area .community-point dt {
+	display: none
+}
+
+.sub .login-area .community-point dd {
+	margin: 21px 0 0 50px;
+	font-size: 13px;
+	font-weight: 700
+}
+
+.sub .login-area .community-point dd p {
+	display: inline-block;
+	text-align: right;
+	vertical-align: middle;
+	width: 90px;
+	margin: 0 3px
+}
+
+.sub .login-area .community-point dd .total-point {
+	color: red;
+	margin: 0 5px
+}
+
+.sub .login-area .community-point dd .btn-change {
+	width: 43px;
+	padding-top: 2px
+}
+
+.sub .login-area .community-point dd .btn-change a {
+	background: url(file:///C:/Mis%20lugares%20Web/kaotickinterna/web.archive.org/web\20210218144415im_/https_/static.nexon.co.jp/maplestory/ver2017/common/btn_change.png) no-repeat 0 0;
+	width: 43px;
+	height: 22px
+}
+
+.sub .login-area .menu-function {
+	font-size: 0;
+	margin: 10px 0 0 44px
+}
+
+.sub .login-area .menu-function li {
+	display: inline-block;
+	margin: 0 2px
+}
+
+.sub .login-area .menu-function .btn-mynote a {
+	background: url(file:///C:/Mis%20lugares%20Web/kaotickinterna/web.archive.org/web\20210301220053im_/https_/static.nexon.co.jp/maplestory/ver2017/common/btn_mynote.png) no-repeat 0 0;
+	width: 78px;
+	height: 22px
+}
+
+.sub .login-area .menu-function .btn-logout a {
+	background: url(file:///C:/Mis%20lugares%20Web/kaotickinterna/web.archive.org/web\20210116035435im_/https_/static.nexon.co.jp/maplestory/ver2017/common/btn_logout.png) no-repeat 0 0;
+	width: 68px;
+	height: 22px
+}
+
+.sub .login-area.error {
+	background: url(file:///C:/Mis%20lugares%20Web/kaotickinterna/web.archive.org/web\20210115115808im_/https_/static.nexon.co.jp/maplestory/ver2017/common/bg_login_error.png) no-repeat center bottom
+}
+
+.sub .login-area.error p.txt {
+	display: none
+}
+
+.sub .login-area.error .menu-function {
+	margin: 77px 0 0 44px
+}
+
+.sub .login-area.maintenance {
+	background: url(file:///C:/Mis%20lugares%20Web/kaotickinterna/web.archive.org/web\20210222232140im_/https_/static.nexon.co.jp/maplestory/ver2017/common/bg_login_maintenance_201001.png) no-repeat center bottom
+}
+
+.sub .login-area.maintenance p {
+	display: none
+}
+
+.sub .side-menu {
+	background: url(../img/bg_top.png) no-repeat left top, url(../img/bg_bottom.png) no-repeat left bottom;
+	width: 220px;
+	padding: 15px 10px 66px 0;
+	position: absolute;
+	left: 12px;
+	top: 310px
+}
+
+.sub .side-menu::before {
+	content: '';
+	position: absolute;
+	display: block;
+	background: url(../img/bg_right01.png) no-repeat 0 0;
+	width: 30px;
+	height: 122px;
+	top: 0;
+	right: 0
+}
+
+.sub .side-menu::after {
+	content: '';
+	position: absolute;
+	display: block;
+	background: url(../img/bg_right02.png) no-repeat 0 0;
+	width: 6px;
+	height: 10px;
+	bottom: 80px;
+	right: 23px
+}
+
+.sub .side-menu p {
+	white-space: nowrap;
+	text-indent: 110%;
+	overflow: hidden;
+	margin: 0 auto
+}
+
+.sub .side-menu>ul {
+	background: url(../img/bg_middle.png) repeat-y 0 0;
+	padding-top: 4px;
+	margin-top: 9px
+}
+
+.sub .side-menu>ul>li {
+	margin: 4px 0 0 27px;
+	width: 166px;
+	min-height: 22px
+}
+
+.sub .side-menu>ul>li a,
+.sub .side-menu>ul>li span {
+	display: block;
+	width: 166px;
+	height: 22px;
+	white-space: nowrap;
+	text-indent: 110%;
+	overflow: hidden
+}
+
+.sub .side-menu.side-menu00 p {
+	background: url(../img/ttl_side_menu_00.png) no-repeat 0 0;
+	width: 111px;
+	height: 30px
+}
+
+.sub .side-menu.side-menu00>ul>li>a,
+.sub .side-menu.side-menu00>ul>li>span {
+	background: url(../img/btn_side_menu_00.png) no-repeat 0 0
+}
+
+.sub .side-menu.side-menu00>ul>li.menu01 ul li a {
+	background: url(../img/btn_side_menu_00_01.png) no-repeat 0 0
+}
+
+.sub .side-menu.side-menu01 p {
+	background: url(../img/ttl_side_menu_01.png) no-repeat 0 0;
+	width: 86px;
+	height: 30px
+}
+
+.sub .side-menu.side-menu01>ul>li>a,
+.sub .side-menu.side-menu01>ul>li>span {
+	background: url(../img/btn_side_menu_01.png) no-repeat 0 0
+}
+
+.sub .side-menu.side-menu02 p {
+	background: url(../img/ttl_side_menu_02.png) no-repeat 0 0;
+	width: 125px;
+	height: 30px
+}
+
+.sub .side-menu.side-menu02>ul>li>a,
+.sub .side-menu.side-menu02>ul>li>span {
+	background: url(../img/btn_side_menu_02_171108.png) no-repeat 0 0
+}
+
+.sub .side-menu.side-menu02>ul>li.menu02 ul li a {
+	background: url(../img/btn_side_menu_02_02.png) no-repeat 0 0
+}
+
+.sub .side-menu.side-menu02>ul>li.menu03 ul li a {
+	background: url(../img/btn_side_menu_02_03.png) no-repeat 0 0
+}
+
+.sub .side-menu.side-menu02>ul>li.menu04 ul li a {
+	background: url(../img/btn_side_menu_02_04.png) no-repeat 0 0
+}
+
+.sub .side-menu.side-menu02>ul>li.menu05 ul li a {
+	background: url(../img/btn_side_menu_02_05_200520.png) no-repeat 0 0
+}
+
+.sub .side-menu.side-menu03 p {
+	background: url(../img/ttl_side_menu_03.png) no-repeat 0 0;
+	width: 88px;
+	height: 30px
+}
+
+.sub .side-menu.side-menu03>ul>li>a,
+.sub .side-menu.side-menu03>ul>li>span {
+	background: url(../img/btn_side_menu_03_191224.png) no-repeat 0 0
+}
+
+.sub .side-menu.side-menu03>ul>li.menu02 ul li a {
+	background: url(../img/btn_side_menu_03_02_190724.png) no-repeat 0 0
+}
+
+.sub .side-menu.side-menu03>ul>li.menu03 ul li a {
+	background: url(../img/btn_side_menu_03_03.png) no-repeat 0 0
+}
+
+.sub .side-menu.side-menu03>ul>li.menu04 ul li a {
+	background: url(../img/btn_side_menu_03_04.png) no-repeat 0 0
+}
+
+.sub .side-menu.side-menu03>ul>li.menu05 ul li a {
+	background: url(../img/btn_side_menu_03_05.png) no-repeat 0 0
+}
+
+.sub .side-menu.side-menu03>ul>li.menu06 ul li a {
+	background: url(../img/btn_side_menu_03_06_170802.png) no-repeat 0 0
+}
+
+.sub .side-menu.side-menu03>ul>li.menu07 ul li a {
+	background: url(../img/btn_side_menu_03_07_171220.png) no-repeat 0 0
+}
+
+.sub .side-menu.side-menu03>ul>li.menu08 ul li a {
+	background: url(../img/btn_side_menu_03_08_200722.png) no-repeat 0 0
+}
+
+.sub .side-menu.side-menu03>ul>li.menu09 ul li a {
+	background: url(../img/btn_side_menu_03_09_191224.png) no-repeat 0 0
+}
+
+.sub .side-menu.side-menu03>ul>li.menu10 ul li a {
+	background: url(../img/btn_side_menu_03_10.png) no-repeat 0 0
+}
+
+.sub .side-menu.side-menu04 p {
+	background: url(../img/ttl_side_menu_04.png) no-repeat 0 0;
+	width: 118px;
+	height: 30px
+}
+
+.sub .side-menu.side-menu04>ul>li>a,
+.sub .side-menu.side-menu04>ul>li>span {
+	background: url(../img/btn_side_menu_04.png) no-repeat 0 0
+}
+
+.sub .side-menu.side-menu04>ul>li.menu02 ul li a {
+	background: url(../img/btn_side_menu_04_02.png) no-repeat 0 0
+}
+
+.sub .side-menu.side-menu04>ul>li.menu03 ul li a {
+	background: url(../img/btn_side_menu_04_03.png) no-repeat 0 0
+}
+
+.sub .side-menu.side-menu04>ul>li.menu05 ul li a {
+	background: url(../img/btn_side_menu_04_05.png) no-repeat 0 0
+}
+
+.sub .side-menu.side-menu04>ul>li.menu06 ul li a {
+	background: url(../img/btn_side_menu_04_06.png) no-repeat 0 0
+}
+
+.sub .side-menu.side-menu05 p {
+	background: url(../img/ttl_side_menu_05.png) no-repeat 0 0;
+	width: 88px;
+	height: 30px
+}
+
+.sub .side-menu.side-menu05>ul>li>a,
+.sub .side-menu.side-menu05>ul>li>span {
+	background: url(../img/btn_side_menu_05.png) no-repeat 0 0
+}
+
+.sub .side-menu[class^=side-menu]>ul>li.menu01 a,
+.sub .side-menu[class^=side-menu]>ul>li.menu01 span {
+	background-position: 0 0
+}
+
+.sub .side-menu[class^=side-menu]>ul>li.menu01 a:hover {
+	background-position: 100% 0
+}
+
+.sub .side-menu[class^=side-menu]>ul>li.menu02 a,
+.sub .side-menu[class^=side-menu]>ul>li.menu02 span {
+	background-position: 0 -22px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li.menu02 a:hover {
+	background-position: 100% -22px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li.menu03 a,
+.sub .side-menu[class^=side-menu]>ul>li.menu03 span {
+	background-position: 0 -44px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li.menu03 a:hover {
+	background-position: 100% -44px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li.menu04 a,
+.sub .side-menu[class^=side-menu]>ul>li.menu04 span {
+	background-position: 0 -66px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li.menu04 a:hover {
+	background-position: 100% -66px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li.menu05 a,
+.sub .side-menu[class^=side-menu]>ul>li.menu05 span {
+	background-position: 0 -88px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li.menu05 a:hover {
+	background-position: 100% -88px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li.menu06 a,
+.sub .side-menu[class^=side-menu]>ul>li.menu06 span {
+	background-position: 0 -110px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li.menu06 a:hover {
+	background-position: 100% -110px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li.menu07 a,
+.sub .side-menu[class^=side-menu]>ul>li.menu07 span {
+	background-position: 0 -132px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li.menu07 a:hover {
+	background-position: 100% -132px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li.menu08 a,
+.sub .side-menu[class^=side-menu]>ul>li.menu08 span {
+	background-position: 0 -154px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li.menu08 a:hover {
+	background-position: 100% -154px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li.menu09 a,
+.sub .side-menu[class^=side-menu]>ul>li.menu09 span {
+	background-position: 0 -176px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li.menu09 a:hover {
+	background-position: 100% -176px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li.menu10 a,
+.sub .side-menu[class^=side-menu]>ul>li.menu10 span {
+	background-position: 0 -198px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li.menu10 a:hover {
+	background-position: 100% -198px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li.menu11 a,
+.sub .side-menu[class^=side-menu]>ul>li.menu11 span {
+	background-position: 0 -220px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li.menu11 a:hover {
+	background-position: 100% -220px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li.menu12 a,
+.sub .side-menu[class^=side-menu]>ul>li.menu12 span {
+	background-position: 0 -242px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li.menu12 a:hover {
+	background-position: 100% -242px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li.menu13 a,
+.sub .side-menu[class^=side-menu]>ul>li.menu13 span {
+	background-position: 0 -264px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li.menu13 a:hover {
+	background-position: 100% -264px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li.menu14 a,
+.sub .side-menu[class^=side-menu]>ul>li.menu14 span {
+	background-position: 0 -286px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li.menu14 a:hover {
+	background-position: 100% -286px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li.menu15 a,
+.sub .side-menu[class^=side-menu]>ul>li.menu15 span {
+	background-position: 0 -308px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li.menu15 a:hover {
+	background-position: 100% -308px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li.menu16 a,
+.sub .side-menu[class^=side-menu]>ul>li.menu16 span {
+	background-position: 0 -330px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li.menu16 a:hover {
+	background-position: 100% -330px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li.menu17 a,
+.sub .side-menu[class^=side-menu]>ul>li.menu17 span {
+	background-position: 0 -352px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li.menu17 a:hover {
+	background-position: 100% -352px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li.menu18 a,
+.sub .side-menu[class^=side-menu]>ul>li.menu18 span {
+	background-position: 0 -374px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li.menu18 a:hover {
+	background-position: 100% -374px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li.menu19 a,
+.sub .side-menu[class^=side-menu]>ul>li.menu19 span {
+	background-position: 0 -396px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li.menu19 a:hover {
+	background-position: 100% -396px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li.menu20 a,
+.sub .side-menu[class^=side-menu]>ul>li.menu20 span {
+	background-position: 0 -418px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li.menu20 a:hover {
+	background-position: 100% -418px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li.active>a,
+.sub .side-menu[class^=side-menu]>ul>li.active>span {
+	background-position-x: 100%
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub01 a {
+	background-position: 0% 0
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub01 a:hover {
+	background-position: 100% 0
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub02 a {
+	background-position: 0% -20px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub02 a:hover {
+	background-position: 100% -20px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub03 a {
+	background-position: 0% -40px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub03 a:hover {
+	background-position: 100% -40px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub04 a {
+	background-position: 0% -60px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub04 a:hover {
+	background-position: 100% -60px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub05 a {
+	background-position: 0% -80px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub05 a:hover {
+	background-position: 100% -80px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub06 a {
+	background-position: 0% -100px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub06 a:hover {
+	background-position: 100% -100px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub07 a {
+	background-position: 0% -120px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub07 a:hover {
+	background-position: 100% -120px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub08 a {
+	background-position: 0% -140px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub08 a:hover {
+	background-position: 100% -140px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub09 a {
+	background-position: 0% -160px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub09 a:hover {
+	background-position: 100% -160px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub10 a {
+	background-position: 0% -180px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub10 a:hover {
+	background-position: 100% -180px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub11 a {
+	background-position: 0% -200px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub11 a:hover {
+	background-position: 100% -200px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub12 a {
+	background-position: 0% -220px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub12 a:hover {
+	background-position: 100% -220px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub13 a {
+	background-position: 0% -240px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub13 a:hover {
+	background-position: 100% -240px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub14 a {
+	background-position: 0% -260px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub14 a:hover {
+	background-position: 100% -260px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub15 a {
+	background-position: 0% -280px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub15 a:hover {
+	background-position: 100% -280px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub16 a {
+	background-position: 0% -300px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub16 a:hover {
+	background-position: 100% -300px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub17 a {
+	background-position: 0% -320px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub17 a:hover {
+	background-position: 100% -320px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub18 a {
+	background-position: 0% -340px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub18 a:hover {
+	background-position: 100% -340px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub19 a {
+	background-position: 0% -360px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub19 a:hover {
+	background-position: 100% -360px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub20 a {
+	background-position: 0% -380px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub20 a:hover {
+	background-position: 100% -380px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub21 a {
+	background-position: 0% -400px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub21 a:hover {
+	background-position: 100% -400px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub22 a {
+	background-position: 0% -420px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub22 a:hover {
+	background-position: 100% -420px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub23 a {
+	background-position: 0% -440px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub23 a:hover {
+	background-position: 100% -440px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub24 a {
+	background-position: 0% -460px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub24 a:hover {
+	background-position: 100% -460px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub25 a {
+	background-position: 0% -480px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub25 a:hover {
+	background-position: 100% -480px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub26 a {
+	background-position: 0% -500px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub26 a:hover {
+	background-position: 100% -500px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub27 a {
+	background-position: 0% -520px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub27 a:hover {
+	background-position: 100% -520px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub28 a {
+	background-position: 0% -540px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub28 a:hover {
+	background-position: 100% -540px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub29 a {
+	background-position: 0% -560px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub29 a:hover {
+	background-position: 100% -560px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub30 a {
+	background-position: 0% -580px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.sub30 a:hover {
+	background-position: 100% -580px
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li a {
+	display: block;
+	width: 166px;
+	height: 20px;
+	white-space: nowrap;
+	text-indent: 110%;
+	overflow: hidden
+}
+
+.sub .side-menu[class^=side-menu]>ul>li ul li.active a {
+	background-position-x: 100%
+}
+
+.btn-mobilepages {
+	position: fixed;
+	z-index: 100;
+	left: 30px;
+	bottom: 50px;
+	background: url(file:///C:/Mis%20lugares%20Web/kaotickinterna/web.archive.org/web\20210427100225im_/https_/static.nexon.co.jp/maplestory/ver2017/common/btn_mobile.gif) no-repeat 0 0;
+	background-size: 100%;
+	width: 128px;
+	height: 136px
+}
+
+.btn-mobilepages a {
+	position: absolute;
+	top: -230px;
+	left: 55px;
+	background: url(file:///C:/Mis%20lugares%20Web/kaotickinterna/web.archive.org/web\20210427100225im_/https_/static.nexon.co.jp/maplestory/ver2017/common/btn_mobile.png) no-repeat 0 0;
+	background-size: 100%;
+	width: 240px;
+	height: 240px
+}
+
+.btn-mobilepages span {
+	display: none
+}
+
+.login-point {
+	width: 275px;
+	height: 330px;
+	position: fixed;
+	z-index: 10000;
+	left: 100%;
+	top: 100%
+}
+
+.login-point::before {
+	content: '';
+	display: block;
+	background: url(file:///C:/Mis%20lugares%20Web/kaotickinterna/web.archive.org/web\20210228211014im_/https_/static.nexon.co.jp/maplestory/ver2017/common/bg_login_char.png) no-repeat 0 0;
+	width: 140px;
+	height: 220px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 10
+}
+
+.login-point .inner {
+	background: url(file:///C:/Mis%20lugares%20Web/kaotickinterna/web.archive.org/web\20210114194616im_/https_/static.nexon.co.jp/maplestory/ver2017/common/bg_login_point.png) no-repeat 0 0;
+	background-size: 100%;
+	width: 240px;
+	height: 225px;
+	position: absolute;
+	top: 0;
+	left: 35px;
+	-webkit-transform-origin: left bottom;
+	transform-origin: left bottom;
+	-webkit-transform: scale(.1);
+	transform: scale(.1)
+}
+
+.login-point .inner.active {
+	-webkit-animation: active .5s ease-in-out forwards;
+	animation: active .5s ease-in-out forwards
+}
+
+.login-point .inner.passive {
+	-webkit-animation: passive .5s ease-in-out forwards;
+	animation: passive .5s ease-in-out forwards
+}
+
+.login-point .inner h3 {
+	display: none
+}
+
+.login-point .inner p {
+	height: 0;
+	overflow: hidden
+}
+
+.login-point .inner p span.point {
+	display: block;
+	font-weight: 700;
+	font-size: 40px;
+	color: #ee3000;
+	position: absolute;
+	top: 44px;
+	left: 60px
+}
+
+.login-point .inner p span.total-point {
+	display: block;
+	font-weight: 700;
+	font-size: 18px;
+	color: #665030;
+	position: absolute;
+	top: 129px;
+	left: 70px;
+	text-align: right;
+	width: 40px;
+	line-height: 1
+}
+
+article .breadcrumb {
+	font-size: 11px;
+	background: #fff8ed;
+	border: solid 1px #dbc19a;
+	border-radius: 15px;
+	padding: 2px 10px 0;
+	top: 85px;
+	left: 30px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-wrap: nowrap;
+	line-height: 1
+}
+
+article .breadcrumb li::before {
+	content: "＞";
+	font-size: 8px;
+	margin: 0 5px
+}
+
+article .breadcrumb li:first-child::before {
+	content: normal
+}
+
+article .breadcrumb li span {
+	color: #6a3017;
+	font-weight: 700
+}
+
+article .sub-list {
+	font-weight: 700;
+	font-size: 11px;
+	right: 68px;
+	top: 30px;
+	width: 212px
+}
+
+article .sub-list li {
+	position: absolute;
+	padding-left: 12px;
+	margin-bottom: 3px
+}
+
+article .sub-list li:nth-child(1) {
+	top: 2px;
+	left: 7px
+}
+
+article .sub-list li:nth-child(2) {
+	top: 20px;
+	left: 7px
+}
+
+article .sub-list li:nth-child(3) {
+	top: 38px;
+	left: 7px
+}
+
+article .sub-list li:nth-child(4) {
+	top: 2px;
+	left: 110px
+}
+
+article .sub-list li:nth-child(5) {
+	top: 20px;
+	left: 110px
+}
+
+article .sub-list li:nth-child(6) {
+	top: 38px;
+	left: 110px
+}
+
+article .sub-list li.active a {
+	color: #e30000
+}
+
+article .sub-list li::before {
+	content: '';
+	display: block;
+	position: absolute;
+	background: url(../img/icn_page_menu.png) no-repeat 0 0;
+	width: 7px;
+	height: 7px;
+	top: 4px;
+	left: 0
+}
+
+article .totop {
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+	white-space: nowrap;
+	text-indent: 110%;
+	overflow: hidden;
+	background: url(../img/icn_totop.png) no-repeat 0 0;
+	background-size: 0 0
+}
+
+article .totop a {
+	background: url(../img/btn_totop.png) no-repeat top right;
+	display: block;
+	width: 0;
+	height: 68px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-indent: 110%
+}
+
+article .totop a:hover {
+	background-position: bottom right
+}
+
+article .totop.on {
+	transition: transform 1.5s cubic-bezier(0, 0, .2, 1)
+}
+
+article .totop.on a {
+	background: url(../img/icn_totop.png) no-repeat 0 0;
+	width: 60px;
+	height: 60px;
+	-webkit-animation: kaiten01 .5s linear forwards;
+	animation: kaiten01 .5s linear forwards
+}
+
+article .totop.min {
+	-webkit-transform: scale(.2);
+	transform: scale(.2);
+	overflow: visible
+}
+
+article .totop.min a {
+	background-position: 0 0;
+	-webkit-animation: kaiten02 2.5s linear forwards;
+	animation: kaiten02 2.5s linear forwards
+}
+
+article .char-basic {
+	font-size: 12px;
+	position: relative;
+	margin-bottom: 20px
+}
+
+article .char-basic::after {
+	content: "";
+	display: table;
+	clear: both
+}
+
+article .char-basic .avatar {
+	width: 96px;
+	height: 96px;
+	position: absolute;
+	margin: auto auto auto 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0
+}
+
+article .char-basic .info {
+	float: left;
+	padding: 26px 40px 26px 20px;
+	margin-left: 140px;
+	position: relative;
+	border-radius: 20px;
+	background: #f1e0c6
+}
+
+article .char-basic .info::before {
+	content: '';
+	position: absolute;
+	display: block;
+	background: url(../img/bg_balloon_01.png) no-repeat 0 0;
+	width: 20px;
+	height: 18px;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: -20px;
+	margin: auto auto auto 0
+}
+
+article .char-basic .info::after {
+	content: "";
+	display: table;
+	clear: both
+}
+
+article .char-basic .info dl {
+	font-size: 12px;
+	line-height: 1;
+	margin-top: 7px;
+	float: left
+}
+
+article .char-basic .info dl::after {
+	content: "";
+	display: table;
+	clear: both
+}
+
+article .char-basic .info dl dt {
+	font-weight: 700;
+	float: left
+}
+
+article .char-basic .info dl dd {
+	float: left;
+	width: 80px
+}
+
+article .char-basic .info .btn-mynote {
+	float: left;
+	width: 257px;
+	margin: 0 auto;
+	top: 19px;
+	right: 40px
+}
+
+article .char-basic .info .btn-mynote a {
+	background: url(file:///C:/Mis%20lugares%20Web/kaotickinterna/web.archive.org/web\20210218144429im_/https_/static.nexon.co.jp/maplestory/ver2017/sub/btn_change_primary.png) no-repeat 0 0;
+	width: 257px;
+	height: 32px
+}
+
+article .pager {
+	text-align: center;
+	font-size: 0;
+	margin-bottom: 10px
+}
+
+article .pager p.btn-first {
+	display: inline-block;
+	margin-bottom: 0;
+	margin: 0 10px;
+	vertical-align: middle
+}
+
+article .pager p.btn-first a,
+article .pager p.btn-first span {
+	display: block;
+	background: url(file:///C:/Mis%20lugares%20Web/kaotickinterna/web.archive.org/web\20210114100232im_/https_/static.nexon.co.jp/maplestory/ver2017/sub/btn_pager_first.png) no-repeat 0 0;
+	width: 26px;
+	height: 26px;
+	white-space: nowrap;
+	text-indent: 110%;
+	overflow: hidden
+}
+
+article .pager p.btn-last {
+	display: inline-block;
+	margin-bottom: 0;
+	margin: 0 10px;
+	vertical-align: middle
+}
+
+article .pager p.btn-last a,
+article .pager p.btn-last span {
+	display: block;
+	background: url(file:///C:/Mis%20lugares%20Web/kaotickinterna/web.archive.org/web\20210331175010im_/https_/static.nexon.co.jp/maplestory/ver2017/sub/btn_pager_last.png) no-repeat 0 0;
+	width: 26px;
+	height: 26px;
+	white-space: nowrap;
+	text-indent: 110%;
+	overflow: hidden
+}
+
+article .pager ol {
+	display: inline-block;
+	margin-bottom: 0
+}
+
+article .pager ol li {
+	display: inline-block;
+	margin-bottom: 0;
+	font-size: 12px;
+	background: #ceb084;
+	font-weight: 700;
+	line-height: 1;
+	vertical-align: middle
+}
+
+article .pager ol li.prev {
+	border-radius: 20px 0 0 20px;
+	padding-left: 10px
+}
+
+article .pager ol li.next {
+	border-radius: 0 20px 20px 0;
+	padding-right: 10px
+}
+
+article .pager ol a {
+	color: #fff;
+	display: block;
+	padding: 10px 7px
+}
+
+article .pager ol a:hover {
+	color: #fff
+}
+
+article .pager ol span {
+	display: block;
+	padding: 10px 5px;
+	color: #b00
+}
+
+.stamp-area {
+	background: url(file:///C:/Mis%20lugares%20Web/kaotickinterna/web.archive.org/web\20210115013845im_/https_/static.nexon.co.jp/maplestory/ver2017/sub/stamp/bg_stamp_list.png) no-repeat 0 0;
+	width: 460px;
+	height: 315px;
+	position: absolute;
+	display: none;
+	z-index: 200
+}
+
+.stamp-area .avatar {
+	position: absolute;
+	top: 21px;
+	left: 46px
+}
+
+.stamp-area .btn-stamp-char-change {
+	position: absolute;
+	width: 93px;
+	height: 20px;
+	top: 126px;
+	left: 48px
+}
+
+.stamp-area .btn-stamp-char-change a {
+	background: url(file:///C:/Mis%20lugares%20Web/kaotickinterna/web.archive.org/web\20210116113410im_/https_/static.nexon.co.jp/maplestory/ver2017/sub/stamp/btn_change.png) no-repeat 0 0;
+	width: 93px;
+	height: 20px
+}
+
+.stamp-area .btn-close {
+	position: absolute;
+	top: -5px;
+	right: 5px;
+	width: 36px;
+	height: 36px
+}
+
+.stamp-area .btn-close a {
+	background: url(file:///C:/Mis%20lugares%20Web/kaotickinterna/web.archive.org/web\20210115051212im_/https_/static.nexon.co.jp/maplestory/ver2017/sub/stamp/btn_close.png) no-repeat 0 0;
+	width: 36px;
+	height: 36px
+}
+
+.stamp-area ul li {
+	border-radius: 100%;
+	background: #fff;
+	overflow: hidden;
+	width: 62px;
+	height: 62px;
+	position: absolute
+}
+
+.stamp-area ul li a {
+	display: block;
+	margin: 4px;
+	width: 54px;
+	height: 54px;
+	white-space: nowrap;
+	text-indent: 110%;
+	overflow: hidden
+}
+
+.stamp-area ul li.stamp01 {
+	left: 163px;
+	top: 21px
+}
+
+.stamp-area ul li.stamp02 {
+	left: 231px;
+	top: 21px
+}
+
+.stamp-area ul li.stamp03 {
+	left: 298px;
+	top: 21px
+}
+
+.stamp-area ul li.stamp04 {
+	left: 365px;
+	top: 21px
+}
+
+.stamp-area ul li.stamp05 {
+	left: 163px;
+	top: 89px
+}
+
+.stamp-area ul li.stamp06 {
+	left: 231px;
+	top: 89px
+}
+
+.stamp-area ul li.stamp07 {
+	left: 298px;
+	top: 89px
+}
+
+.stamp-area ul li.stamp08 {
+	left: 365px;
+	top: 89px
+}
+
+.stamp-area ul li.stamp09 {
+	left: 27px;
+	top: 157px
+}
+
+.stamp-area ul li.stamp10 {
+	left: 95px;
+	top: 157px
+}
+
+.stamp-area ul li.stamp11 {
+	left: 163px;
+	top: 157px
+}
+
+.stamp-area ul li.stamp12 {
+	left: 231px;
+	top: 157px
+}
+
+.stamp-area ul li.stamp13 {
+	left: 298px;
+	top: 157px
+}
+
+.stamp-area ul li.stamp14 {
+	left: 365px;
+	top: 157px
+}
+
+.stamp-area ul li.stamp15 {
+	left: 27px;
+	top: 225px
+}
+
+.stamp-area ul li.stamp16 {
+	left: 95px;
+	top: 225px
+}
+
+.stamp-area ul li.stamp17 {
+	left: 163px;
+	top: 225px
+}
+
+.stamp-area ul li.stamp18 {
+	left: 231px;
+	top: 225px
+}
+
+.stamp-area ul li.stamp01 a {
+	background: url(file:///C:/Mis%20lugares%20Web/kaotickinterna/web.archive.org/web\20210608071658im_/https_/static.nexon.co.jp/maplestory/ver2017/sub/stamp/stamp0.jpg) no-repeat center center;
+	background-size: 100%
+}
+
+.stamp-area ul li.stamp02 a {
+	background: url(file:///C:/Mis%20lugares%20Web/kaotickinterna/web.archive.org/web\20210302024923im_/https_/static.nexon.co.jp/maplestory/ver2017/sub/stamp/stamp1.jpg) no-repeat center center;
+	background-size: 100%
+}
+
+.stamp-area ul li.stamp03 a {
+	background: url(file:///C:/Mis%20lugares%20Web/kaotickinterna/web.archive.org/web\20210331174918im_/https_/static.nexon.co.jp/maplestory/ver2017/sub/stamp/stamp2.jpg) no-repeat center center;
+	background-size: 100%
+}
+
+.stamp-area ul li.stamp04 a {
+	background: url(file:///C:/Mis%20lugares%20Web/kaotickinterna/web.archive.org/web\20210114225944im_/https_/static.nexon.co.jp/maplestory/ver2017/sub/stamp/stamp3.jpg) no-repeat center center;
+	background-size: 100%
+}
+
+.stamp-area ul li.stamp05 a {
+	background: url(file:///C:/Mis%20lugares%20Web/kaotickinterna/web.archive.org/web\20210331175051im_/https_/static.nexon.co.jp/maplestory/ver2017/sub/stamp/stamp4.jpg) no-repeat center center;
+	background-size: 100%
+}
+
+.stamp-area ul li.stamp06 a {
+	background: url(file:///C:/Mis%20lugares%20Web/kaotickinterna/web.archive.org/web\20210115035845im_/https_/static.nexon.co.jp/maplestory/ver2017/sub/stamp/stamp5.jpg) no-repeat center center;
+	background-size: 100%
+}
+
+.stamp-area ul li.stamp07 a {
+	background: url(file:///C:/Mis%20lugares%20Web/kaotickinterna/web.archive.org/web\20210115100117im_/https_/static.nexon.co.jp/maplestory/ver2017/sub/stamp/stamp6.jpg) no-repeat center center;
+	background-size: 100%
+}
+
+.stamp-area ul li.stamp08 a {
+	background: url(file:///C:/Mis%20lugares%20Web/kaotickinterna/web.archive.org/web\20210116135823im_/https_/static.nexon.co.jp/maplestory/ver2017/sub/stamp/stamp7.jpg) no-repeat center center;
+	background-size: 100%
+}
+
+.stamp-area ul li.stamp09 a {
+	background: url(file:///C:/Mis%20lugares%20Web/kaotickinterna/web.archive.org/web\20210116113424im_/https_/static.nexon.co.jp/maplestory/ver2017/sub/stamp/stamp8.jpg) no-repeat center center;
+	background-size: 100%
+}
+
+.stamp-area ul li.stamp10 a {
+	background: url(file:///C:/Mis%20lugares%20Web/kaotickinterna/web.archive.org/web\20210114132049im_/https_/static.nexon.co.jp/maplestory/ver2017/sub/stamp/stamp9.jpg) no-repeat center center;
+	background-size: 100%
+}
+
+.stamp-area ul li.stamp11 a {
+	background: url(file:///C:/Mis%20lugares%20Web/kaotickinterna/web.archive.org/web\20210331175010im_/https_/static.nexon.co.jp/maplestory/ver2017/sub/stamp/stamp10.jpg) no-repeat center center;
+	background-size: 100%
+}
+
+.stamp-area ul li.stamp12 a {
+	background: url(file:///C:/Mis%20lugares%20Web/kaotickinterna/web.archive.org/web\20210331174918im_/https_/static.nexon.co.jp/maplestory/ver2017/sub/stamp/stamp11.jpg) no-repeat center center;
+	background-size: 100%
+}
+
+.stamp-area ul li.stamp13 a {
+	background: url(file:///C:/Mis%20lugares%20Web/kaotickinterna/web.archive.org/web\20210331174918im_/https_/static.nexon.co.jp/maplestory/ver2017/sub/stamp/stamp12.jpg) no-repeat center center;
+	background-size: 100%
+}
+
+.stamp-area ul li.stamp14 a {
+	background: url(file:///C:/Mis%20lugares%20Web/kaotickinterna/web.archive.org/web\20210331174929im_/https_/static.nexon.co.jp/maplestory/ver2017/sub/stamp/stamp13.jpg) no-repeat center center;
+	background-size: 100%
+}
+
+.stamp-area ul li.stamp15 a {
+	background: url(file:///C:/Mis%20lugares%20Web/kaotickinterna/web.archive.org/web\20210331174918im_/https_/static.nexon.co.jp/maplestory/ver2017/sub/stamp/stamp14.jpg) no-repeat center center;
+	background-size: 100%
+}
+
+.stamp-area ul li.stamp16 a {
+	background: url(file:///C:/Mis%20lugares%20Web/kaotickinterna/web.archive.org/web\20210331175051im_/https_/static.nexon.co.jp/maplestory/ver2017/sub/stamp/stamp15.jpg) no-repeat center center;
+	background-size: 100%
+}
+
+.stamp-area ul li.stamp17 a {
+	background: url(file:///C:/Mis%20lugares%20Web/kaotickinterna/web.archive.org/web\20210331175003im_/https_/static.nexon.co.jp/maplestory/ver2017/sub/stamp/stamp16.jpg) no-repeat center center;
+	background-size: 100%
+}
+
+.stamp-area ul li.stamp18 a {
+	background: url(file:///C:/Mis%20lugares%20Web/kaotickinterna/web.archive.org/web\20210331174929im_/https_/static.nexon.co.jp/maplestory/ver2017/sub/stamp/stamp17.jpg) no-repeat center center;
+	background-size: 100%
+}
+
+table {
+	font-size: 12px;
+	width: 100%;
+	color: #665030
+}
+
+article .basic-table {
+	position: relative;
+	border-collapse: separate;
+	border-top: solid 2px #d2a764;
+	border-right: solid 2px #d2a764;
+	border-bottom: solid 2px #d2a764;
+	border-left: solid 2px #d2a764;
+	text-align: center;
+	box-shadow: 0 0 1px 1px #fff;
+	width: 100%;
+	border-radius: 30px;
+	margin-bottom: 20px;
+	background: #fff
+}
+
+article .basic-table.cloud::before {
+	content: '';
+	display: block;
+	background: url(../img/icn_cloud_01.png) no-repeat 0 0;
+	position: absolute;
+	width: 50px;
+	height: 28px;
+	top: 20px;
+	left: -20px;
+	z-index: 1
+}
+
+article .basic-table.cloud::after {
+	content: '';
+	display: block;
+	background: url(../img/icn_cloud_02.png) no-repeat 0 0;
+	position: absolute;
+	width: 30px;
+	height: 21px;
+	top: 0;
+	right: -10px;
+	z-index: 1
+}
+
+article .basic-table img {
+	vertical-align: middle
+}
+
+article .basic-table tr:first-child th:first-child {
+	border-top-left-radius: 29px
+}
+
+article .basic-table tr:first-child th:last-child {
+	border-top-right-radius: 29px
+}
+
+article .basic-table tr th {
+	color: #fff;
+	background: #82d248;
+	height: 30px;
+	line-height: 30px;
+	vertical-align: middle;
+	position: relative
+}
+
+article .basic-table tr th::before {
+	content: '';
+	width: 2px;
+	height: 100%;
+	background: #82d248;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -1px
+}
+
+article .basic-table tr th:first-child::before {
+	content: normal
+}
+
+article .basic-table tr td {
+	border-bottom: solid 1px #d2a764;
+	border-left: solid 1px #d2a764;
+	padding: 6px 0;
+	text-align: left
+}
+
+article .basic-table tr td:first-child {
+	border-left: none
+}
+
+article .basic-table tr td .time {
+	width: 190px
+}
+
+article .basic-table tr td .item {
+	width: 225px
+}
+
+article .basic-table tr td .point {
+	text-align: right;
+	width: 130px;
+	padding-right: 30px
+}
+
+article .basic-table tr:last-child td {
+	border-bottom: none
+}
+
+:placeholder-shown {
+	color: #bda685
+}
+
+::-webkit-input-placeholder {
+	color: #bda685
+}
+
+::-moz-placeholder {
+	color: #bda685;
+	opacity: 1
+}
+
+:-ms-input-placeholder {
+	color: #bda685
+}
+
+::-ms-input-placeholder {
+	color: #bda685
+}
+
+input[type=text],
+input[type=password],
+select,
+textarea {
+	color: #666;
+	border: solid 1px #abadb3;
+	font-size: 12px;
+	outline: none
+}
+
+input[type=text],
+input[type=password] {
+	width: 177px;
+	padding: 4px;
+	height: 12px;
+	font-size: 12px
+}
+
+select {
+	width: 185px;
+	height: 22px;
+	padding: 1px;
+	cursor: pointer
+}
+
+textarea {
+	resize: none
+}
+
+label {
+	cursor: pointer
+}
+
+.required {
+	padding-left: 10px;
+	margin-bottom: 10px;
+	font-size: 11px
+}
+
+.required span {
+	color: #ea0000;
+	margin-right: 3px
+}
+
+article .form-pass {
+	line-height: 1;
+	vertical-align: middle;
+	margin-bottom: 10px
+}
+
+article .form-pass th {
+	width: 130px;
+	text-align: left
+}
+
+article .form-pass th,
+article .form-pass td {
+	padding: 10px 0
+}
+
+article .table-form {
+	margin-bottom: 10px;
+	line-height: 1.5
+}
+
+article .table-form tr {
+	background: url(../img/border_dot.png) repeat-x left bottom
+}
+
+article .table-form th {
+	width: 150px;
+	text-align: left;
+	padding: 13px 0 10px 10px;
+	vertical-align: top
+}
+
+article .table-form th p {
+	margin: 0
+}
+
+article .table-form th p.caution {
+	margin-bottom: 10px
+}
+
+article .table-form th p.none {
+	padding-left: 15px
+}
+
+article .table-form th p span {
+	color: #ea0000;
+	margin-right: 3px
+}
+
+article .table-form td {
+	padding: 10px 0 0
+}
+
+article .table-form td p {
+	margin: 0
+}
+
+article .table-form td p.caution {
+	margin-bottom: 10px
+}
+
+article .table-form ul.list-disc {
+	font-size: 11px;
+	color: #8c6e44;
+	margin: 0 0 10px 1em
+}
+
+article .table-form .agreement-box p {
+	margin-bottom: 16px
+}
+
+article .table-form .agreement-box ul.list-disc {
+	font-size: 12px;
+	color: #666
+}
+
+article .table-form input[type=text],
+article .table-form input[type=password],
+article .table-form select {
+	margin-bottom: 10px
+}
+
+article .table-form select.date {
+	width: auto
+}
+
+article .table-form input[type=file] {
+	display: none
+}
+
+article .table-form .file-mask input[type=text] {
+	display: inline-block;
+	margin: 2px 5px 0 0;
+	vertical-align: top;
+	height: 14px
+}
+
+article .table-form .file-mask span {
+	display: inline-block;
+	margin-bottom: 0;
+	background: url(file:///C:/Mis%20lugares%20Web/kaotickinterna/web.archive.org/web\20210221042054im_/https_/static.nexon.co.jp/maplestory/ver2017/sub/btn_file.png) no-repeat 0 0;
+	width: 96px;
+	height: 23px;
+	white-space: nowrap;
+	text-indent: 110%;
+	overflow: hidden;
+	margin-top: 2px
+}
+
+article .table-form .file-mask span:hover {
+	background-position: 0 100%
+}
+
+article .table-confirm {
+	margin-bottom: 10px;
+	line-height: 1.5
+}
+
+article .table-confirm tr {
+	background: url(../img/border_dot.png) repeat-x left bottom
+}
+
+article .table-confirm tr:last-child {
+	background: 0 0
+}
+
+article .table-confirm th {
+	width: 150px;
+	text-align: left;
+	padding: 10px 0 10px 10px;
+	vertical-align: top
+}
+
+article .table-confirm th p {
+	margin: 0
+}
+
+article .table-confirm th p.caution {
+	margin-bottom: 10px
+}
+
+article .table-confirm td {
+	padding: 10px 0
+}
+
+article .table-confirm td p {
+	margin: 0
+}
+
+article .table-confirm td p.caution {
+	margin-bottom: 10px
+}
+
+article .search-box {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-wrap: nowrap
+}
+
+article .search-box p {
+	display: inline-block;
+	padding-top: 5px;
+	margin: 0;
+	vertical-align: middle
+}
+
+article .search-box .btn-search {
+	margin: 0;
+	padding-top: 0
+}
+
+article .search-box .btn-search a {
+	background: url(../img/btn_search.png) no-repeat 0 0;
+	width: 62px;
+	height: 27px
+}
+
+article .search-box input[type=text] {
+	display: inline-block;
+	font-size: 12px;
+	border: solid 1px #b57d44;
+	border-radius: 6px;
+	padding: 4px 6px;
+	width: 168px;
+	margin: 3px 10px 0
+}
+
+article ul.list-disc li {
+	text-indent: -1em;
+	padding-left: 1em
+}
+
+article ul.list-disc li::before {
+	content: '・'
+}
+
+article .basic-list {
+	width: 100%;
+	font-size: 12px;
+	margin-bottom: 20px
+}
+
+article .basic-list>li {
+	padding: 5px 20px;
+	background: #fff;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	border: solid 2px #dbc19a
+}
+
+article .basic-list>li.new::after {
+	content: '';
+	display: block;
+	position: absolute;
+	background: url(file:///C:/Mis%20lugares%20Web/kaotickinterna/web.archive.org/web\20210218144207im_/https_/static.nexon.co.jp/maplestory/ver2017/sub/icn_new.png) no-repeat 0 0;
+	width: 58px;
+	height: 58px;
+	top: -5px;
+	left: -5px
+}
+
+article .basic-list tr:last-child {
+	background: url(../img/border_dot.png) repeat-x 0 0
+}
+
+article .basic-list td {
+	line-height: 1
+}
+
+article .basic-list td .avatar {
+	margin: 0 20px 0 0
+}
+
+article .basic-list .date {
+	font-weight: 400;
+	text-align: right;
+	font-size: 12px;
+	padding: 5px 0 0 10px;
+	height: 31px
+}
+
+article .basic-list .detail {
+	padding: 10px 0 10px 10px;
+	width: 650px;
+	vertical-align: top
+}
+
+article .avatar-list {
+	font-size: 0 !important;
+	width: 815px;
+	margin: 0 auto 15px
+}
+
+article .avatar-list>li {
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	width: 147px;
+	margin: 5px;
+	border: solid 3px #dbb780;
+	border-radius: 15px;
+	background: #e3cca9;
+	font-size: 12px
+}
+
+article .avatar-list>li ul,
+article .avatar-list>li ol {
+	margin-bottom: 0
+}
+
+article .avatar-list>li .stamp-cnt {
+	font-weight: 700;
+	margin: 0;
+	padding: 3px 0
+}
+
+article .avatar-list>li .stamp-cnt span {
+	font-weight: 400
+}
+
+article .avatar-list>li .avatar {
+	background: #fff;
+	padding: 3px 0;
+	margin: 0 0 10px
+}
+
+article .avatar-list>li .avatar span {
+	display: block
+}
+
+article .avatar-list>li .btn-stamp-push {
+	width: 111px;
+	height: 23px;
+	margin: 0 auto 10px
+}
+
+article .avatar-list>li .btn-stamp-push a {
+	width: 111px;
+	height: 23px;
+	background: url(../img/stamp/btn_stamp.png) no-repeat 0 0
+}
+
+article .avatar-list>li .btn-stamp-push a.active {
+	background-position: 0 100%
+}
+
+article .avatar-list>li .date {
+	margin-bottom: 3px;
+	font-weight: 700
+}
+
+article .avatar-list>li .date span {
+	font-weight: 400;
+	font-size: 10px;
+	vertical-align: middle
+}
+
+article dl.arrow-list {
+	font-size: 12px
+}
+
+article dl.arrow-list dt {
+	margin-bottom: 8px;
+	position: relative;
+	color: #8ba417;
+	font-weight: 700;
+	padding-left: 10px
+}
+
+article dl.arrow-list dt::before {
+	content: '';
+	display: block;
+	position: absolute;
+	background: url(file:///C:/Mis%20lugares%20Web/kaotickinterna/web.archive.org/web\20210331175021im_/https_/static.nexon.co.jp/maplestory/ver2017/sub/icn_arrow.png) no-repeat 0 0;
+	width: 5px;
+	height: 6px;
+	top: 5px;
+	left: 0
+}
+
+article dl.arrow-list dd {
+	margin-bottom: 21px
+}
+
+#colorbox,
+#cboxOverlay,
+#cboxWrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 30001;
+	overflow: visible !important
+}
+
+#cboxOverlay {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, .8)
+}
+
+#cboxMiddleLeft,
+#cboxBottomLeft {
+	clear: left
+}
+
+#cboxContent {
+	position: relative;
+	text-align: center
+}
+
+#cboxLoadedContent {
+	overflow: auto
+}
+
+#cboxTitle {
+	margin: 0
+}
+
+#cboxLoadingOverlay,
+#cboxLoadingGraphic {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%
+}
+
+#cboxPrevious,
+#cboxNext,
+#cboxClose,
+#cboxSlideshow {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	cursor: pointer
+}
+
+.cboxPhoto {
+	float: left;
+	margin: auto;
+	border: 0;
+	display: block
+}
+
+.cboxIframe {
+	width: 100%;
+	height: 100%;
+	display: block;
+	border: 0
+}
+
+#colorbox:focus {
+	outline: none
+}
+
+#cboxClose {
+	outline: none;
+	border: none;
+	opacity: 1;
+	background: url(file:///C:/Mis%20lugares%20Web/kaotickinterna/web.archive.org/web\20210331174854im_/https_/static.nexon.co.jp/maplestory/ver2017/sub/btn_modal_close.png) no-repeat 0 0;
+	margin-top: 15px;
+	width: 110px;
+	height: 32px;
+	z-index: 30002;
+	white-space: nowrap;
+	text-indent: 110%;
+	overflow: hidden
+}
+
+#cboxClose:hover {
+	background-position: 0 100%
+}
+
+.btn-modal-close {
+	width: 110px;
+	height: 32px;
+	margin: 15px auto 0;
+	white-space: nowrap;
+	text-indent: 110%;
+	overflow: hidden
+}
+
+.btn-modal-close a {
+	background: url(file:///C:/Mis%20lugares%20Web/kaotickinterna/web.archive.org/web\20210331174854im_/https_/static.nexon.co.jp/maplestory/ver2017/sub/btn_modal_close.png) no-repeat 0 0;
+	width: 110px;
+	height: 32px
+}
+
+.modal-wrapper {
+	overflow: hidden;
+	background: 0 0;
+	min-width: auto
+}
+
+.modal article {
+	width: 722px;
+	float: none;
+	margin: 0 auto
+}
+
+div[class^=modal-] h2,
+div[class^=modal-] h3 {
+	white-space: nowrap;
+	text-indent: 110%;
+	overflow: hidden
+}
+
+.modal section,
+.modal .section,
+div[class^=modal-] section,
+div[class^=modal-] .section {
+	width: 722px;
+	position: relative
+}
+
+.modal section::after,
+.modal .section::after,
+div[class^=modal-] section::after,
+div[class^=modal-] .section::after {
+	top: 104px;
+	right: -3px
+}
+
+.modal section .inner,
+.modal .section .inner,
+div[class^=modal-] section .inner,
+div[class^=modal-] .section .inner {
+	margin: 0 18px
+}
+
+#login_box {
+	background: url(../img/index/login.png) no-repeat 0 0;
+	width: 230px;
+	height: 313px;
+	position: relative;
+}
+
+#login_success {
+	background: url(../img/index/login.png) no-repeat 0 0;
+	width: 230px;
+	height: 313px;
+	position: relative;
+	display: none;
+}
+
+#login_success>p {
+	margin-top: 66px;
+	font-size: 12px;
+	line-height: 22px;
+}
+
+#login_success>p.btn-ability {
+	position: absolute;
+	text-align: center;
+	left: 16px;
+	top: 70px;
+}
+
+.layui-btn+.layui-btn {
+	margin-left: 0px;
+}
+
+.layui-btn {
+	min-width: 40%;
+	margin: 3px 1px;
+	border-radius: 0px;
+	border: 0px;
+}
+
+.btn-login>input {
+	width: 166px !important;
+	height: 50px !important;
+	margin-left: 5px !important;
+	border: 2px solid #898989;
+	border-radius: 5px;
+	padding: 1px 2px;
+}

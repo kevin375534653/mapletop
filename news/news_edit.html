@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>新闻管理</title>
+		<link rel="icon" href="../img/favicon.ico">
+		<link rel="stylesheet" href="../layui/css/layui.css" />
+		<script type="application/javascript" src="../layui/layui.js"></script>
+		<script type="application/javascript" src="../js/jquery-2.1.4.min.js"></script>
+		<script type="application/javascript" src="../js/jquery.cookie.js"></script>
+		<script type="application/javascript" src="../js/time.js"></script>
+	</head>
+	<style type="text/css">
+		.site-block {
+			padding: 20px;
+			border: 1px solid #eee;
+		}
+
+		.site-text {
+			position: relative;
+		}
+	</style>
+	<body>
+		<div id="" class="site-text site-block">
+			<form class="layui-form" action="">
+				<input type="hidden" id="id" name="id" value="">
+				<div class="layui-form-item">
+					<label class="layui-form-label">新闻标题</label>
+					<div class="layui-input-inline">
+						<input type="text" id="title" name="title" class="layui-input">
+					</div>
+					<div class="layui-input-inline">
+						<select name="type" id="type" class="layui-input">
+							<option value=""></option>
+							<option value="1">通知</option>
+							<option value="2">活动</option>
+						</select>
+					</div>
+				</div>
+				<div class="layui-form-item">
+					<label class="layui-form-label">新闻内容</label>
+					<textarea id="edit" name="textarea"></textarea>
+				</div>
+				<div class="layui-form-item">
+					<div class="layui-form-label layui-input-inline">
+						<a href="javascript:;" class="layui-btn layui-btn-radius" lay-submit lay-filter="*">确定</a>
+					</div>
+				</div>
+			</form>
+		</div>
+	</body>
+	<script>
+		layui.extend({
+			tinymce: '{/}../layui/layui_exts/tinymce/tinymce'
+		}).use(['form', 'tinymce'], function() {
+			var form = layui.form,
+				t = layui.tinymce
+
+			App = {
+				url: "/webServer/web-essay",
+				init() {
+					var __this = this,
+						id = this.getUrlParam('id')
+					if (id != null) {
+						$.get(__this.url + "/queryById", {
+							id: id
+						}, function(res) {
+							$("#id").val(res.id)
+							$('#title').val(res.title),
+								$("#type").find(`option[value=${res.type}]`).attr("selected", true),
+								form.render('select')
+							__this.loadTinymce(res.context)
+						})
+					}else{
+						__this.loadTinymce()
+					}
+					form.on('submit(*)', function(obj) {
+						var edit = t.get('#edit'),
+							settings = {
+								"async": true,
+								"crossDomain": true,
+								"url": __this.url + (obj.field.id != "" ? "/edit" : "/add"),
+								"method": "POST",
+								"headers": {
+									"content-type": "application/json"
+								},
+								"data": (obj.field.id != "" ? `{\r\n  \"id\": \"${obj.field.id}\",\r\n  \"title\": \"${obj.field.title}\",\r\n  \"context\": \"${escape(edit.getContent())}\",\r\n  \"type\": ${obj.field.type}\r\n}` : 
+								`{\r\n  \"title\": \"${obj.field.title}\",\r\n  \"context\": \"${escape(edit.getContent())}\",\r\n  \"type\": ${obj.field.type}\r\n}`),
+								"processData": false,
+							};
+						$.ajax(settings).done(function(response) {
+							if (response == true) {
+								layer.msg("提交成功", {time:2000}, function() {
+									window.parent.location.reload()
+								})
+							} else {
+								layer.msg("提交失败")
+							}
+						});
+
+					})
+				},
+				getUrlParam(name) {
+					var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"); //构造一个含有目标参数的正则表达式对象
+					var r = window.location.search.substr(1).match(reg); //匹配目标参数
+					if (r != null) return unescape(r[2]);
+					return null; //返回参数值
+				},
+				loadTinymce(context = "") {
+					t.render({
+						elem: "#edit",
+						height: 600,
+						images_upload_url: "/webServer/api/icon/upload",
+						form:{
+							name:"file"
+						}
+					}, (opt, edit) => {
+						edit.setContent(unescape(context))
+						// 加载完成后回调 opt 是传入的所有参数
+						// edit是当前编辑器实例，等同于t.get返回值
+					});
+				}
+			};
+			App.init()
+
+
+		})
+	</script>
+</html>

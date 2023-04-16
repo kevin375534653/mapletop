@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>新闻管理</title>
+		<link rel="icon" href="../img/favicon.ico">
+		<link rel="stylesheet" href="../layui/css/layui.css"/>
+		<script type="application/javascript" src="../layui/layui.js"></script>
+		<script type="application/javascript" src="../js/jquery-2.1.4.min.js"></script>
+		<script type="application/javascript" src="../js/jquery.cookie.js"></script>
+		<script type="application/javascript" src="../js/time.js"></script>
+	</head>
+	<style type="text/css">
+		.site-block {
+		    padding: 20px;
+		    border: 1px solid #eee;
+		}
+		.site-text {
+		    position: relative;
+		}
+	</style>	
+	<body>
+		<div id="" class="site-text site-block">
+			<div class="layui-table" id="list" lay-filter="list"></div>
+		</div>	
+	</body>
+	<script type="text/html" id="toolbar">
+		<a class="layui-btn layui-btn-xs" lay-event="edit">编辑</a>
+		<a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a>
+	</script>
+	<script type="text/html" id="tool">
+		<a class="layui-btn layui-btn-xs layui-btn-normal" lay-event="add">添加新闻</a>
+	</script>
+	<script>
+		
+		layui.use(['table'], function () {
+			var table = layui.table, form = layui.form
+			App = {
+				url:"/webServer/web-essay",
+				init() {
+					var __this = this
+					this.GetNews()
+					table.on('toolbar(list)', function(e) {
+						if(e.event == 'add') {
+							layer.open({
+								type: 2,
+								id:'layui-layer-edit',
+								title:'添加新闻',
+								area:['50%','90%'],
+								skin:'layui-layer-molv',
+								content:`../news/news_edit.html`
+							})
+						}
+					})
+					table.on('tool(list)', function(e){
+						if(e.event == 'edit') {
+							layer.open({
+								type: 2,
+								id:'layui-layer-edit',
+								title:'编辑新闻',
+								area:['50%','90%'],
+								skin:'layui-layer-molv',
+								content:`../news/news_edit.html?id=${e.data.id}`
+							})
+						}else if (e.event == 'del') {
+							$.get(__this.url+'/del', {
+								id:e.data.id
+							}, function(res){
+								if(res == true) {
+									layer.msg("删除成功", {time:2000}, function(){
+										window.location.reload()
+									})
+								}else {
+									layer.msg(res.message)
+								}
+							})
+						}
+					})
+				}, 
+				GetNews(){
+					var __this = this
+					table.render({
+						elem:"#list",
+						url:__this.url+"/list",
+						page:true,
+						limit:15,
+						toolbar:"#tool",
+						cols:[[
+							{field:"title", title:"新闻标题"},
+							{field:"type", title:'新闻类型', templet:function(obj) {
+								return obj.type == 1 ? '通知' : '活动'
+							}},
+							{field:"createTime", title:"发布时间"},
+							{fixed: 'right', title:"操作", width:125, minWidth: 125, toolbar:"#toolbar"}
+						]],
+						parseData:function(res) {
+							return {
+								"code":0,
+								"data":res,
+								"count":res.length
+							}
+						}
+					})
+				}
+			}
+			App.init();
+			
+		})
+		
+	</script>
+</html>
